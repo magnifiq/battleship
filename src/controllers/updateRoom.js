@@ -13,6 +13,6 @@ export function updateRoom() {
         });
     }
     catch (error) {
-        console.error('Error: JSON.parse  in update_room()', error);
+        console.error('Error: JSON.parse  in updateRoom()', error);
     }
 }

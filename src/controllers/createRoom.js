@@ -26,6 +26,6 @@ export function createRoom(parsedData, userId) {
 
     }
     catch (error) {
-        console.error('Error in create_room()', error);
+        console.error('Error in createRoom()', error);
     }
 }

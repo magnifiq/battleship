@@ -21,6 +21,6 @@ export function createGame(parsedData, userId) {
 
     }
     catch (error) {
-        console.error('Error: JSON.parse  in create_game()', error);
+        console.error('Error: JSON.parse  in createGame()', error);
     }
 }
