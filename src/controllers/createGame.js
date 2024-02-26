@@ -2,7 +2,7 @@ import { addResponse } from '../helpers/addResponse';
 import { usersDb, gamesDb, webSocketsDb } from '../store/store.js';
 import { addNewObj } from '../helpers/addNewObj';
 
-export function create_game(parsedData, userId) {
+export function createGame(parsedData, userId) {
 
     try {
 
